@@ -1,5 +1,23 @@
 # End to end Text-Summarizer-Project
 
+## Overview
+This project is a **text summarization tool** leveraging Google's **PEGASUS model** to generate high-quality **abstractive summaries**. The model is integrated with a **Flask API**, and the application is deployed on **AWS** using **CI/CD** pipelines.
+
+## Features
+- **Abstractive Summarization**: Generates human-like summaries rather than just extracting key sentences.
+- **Flask API**: Provides an easy-to-use RESTful interface.
+- **AWS Deployment**: Hosted using **CI/CD pipelines** for automated updates.
+- **Dockerized**: Packaged with **Docker** for easy containerized deployment.
+- **User-Friendly**: Simple input-output mechanism via API calls.
+
+## Tech Stack
+- **Model**: Google's [PEGASUS](https://arxiv.org/abs/1912.08777) for text summarization
+- **Backend**: Flask (Python)
+- **Deployment**: AWS (Elastic Beanstalk, CI/CD)
+- **Containerization**: Docker
+- **Version Control**: GitHub
+
+
 ## Workflows
 
 1. Update config.yaml
@@ -90,7 +108,7 @@ Email: nmanhar2002@gmail.com
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 897729123509.dkr.ecr.ap-south-1.amazonaws.com/text-s
+    - Save the URI: #####
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -126,6 +144,6 @@ Email: nmanhar2002@gmail.com
 
     AWS_REGION = us-east-1
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = demo>>  723641895219.dkr.ecr.ap-south-1.amazonaws.com
 
     ECR_REPOSITORY_NAME = simple-app
