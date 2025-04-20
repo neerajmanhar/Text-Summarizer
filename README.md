@@ -71,11 +71,3 @@ Author: Neeraj Manhar
 IIIT Naya Raipur, Data Science and Artificial Intelligence
 Email: nmanhar2002@gmail.com
 
-```
-
-
-
-
-    AWS_ECR_LOGIN_URI = demo>>  723641895219.dkr.ecr.ap-south-1.amazonaws.com
-
-    ECR_REPOSITORY_NAME = simple-app
